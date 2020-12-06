@@ -7,7 +7,7 @@ url = "http://natas14.natas.labs.overthewire.org/"
 
 session = requests.Session()
 
-response = session.post(url, data = {"username" : "salam", "password": "banoo"}, auth=(username, password)) 
+response = session.post(url, data = {"username" : 'salam"', "password": "banoo"}, auth=(username, password)) 
 
 print(response.text)
 
